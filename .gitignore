@@ -1,2 +1,3 @@
 spring-cloud-azure/src/main/resources/application.properties
 gof/target/
+.DS_Store
