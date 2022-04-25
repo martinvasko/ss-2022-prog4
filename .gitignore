@@ -1,4 +1,5 @@
 spring-cloud-azure/src/main/resources/application.properties
 gof/target/
+junit5/target/
 .DS_Store
 spring-cloud-azure/src/main/resources/application.properties
