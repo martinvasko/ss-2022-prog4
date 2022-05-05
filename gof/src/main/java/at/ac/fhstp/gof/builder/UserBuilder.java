@@ -26,6 +26,7 @@ public class UserBuilder
             this.address = address;
             return this;
         }
+
         //Return the finally constructed User object
         public User build() {
             User user =  new User(id, firstName, lastName, age, phone, address);

@@ -1,5 +1,12 @@
+# IDE
+.DS_Store
+.vscode/
+# Java Projects
 spring-cloud-azure/src/main/resources/application.properties
+deepdive/target/
 gof/target/
 junit5/target/
-.DS_Store
 spring-cloud-azure/src/main/resources/application.properties
+quarkus-azure/.mvn/
+quarkus-starter/.mvn/
+spring-boot/target/

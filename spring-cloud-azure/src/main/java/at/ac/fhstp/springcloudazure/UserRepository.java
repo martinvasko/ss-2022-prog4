@@ -1,10 +1,10 @@
 package at.ac.fhstp.springcloudazure;
 
-import com.azure.spring.data.cosmos.repository.ReactiveCosmosRepository;
+import com.azure.spring.data.cosmos.repository.CosmosRepository;
+
 import org.springframework.stereotype.Repository;
-import reactor.core.publisher.Flux;
 
 @Repository
-public interface UserRepository extends ReactiveCosmosRepository<User, String> {
-    Flux<User> findByFirstName(String firstName);
+public interface UserRepository extends CosmosRepository<User, String> {
+    User findByFirstName(String firstName);
 }

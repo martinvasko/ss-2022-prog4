@@ -1,20 +1,24 @@
 package at.ac.fhstp;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
-import static org.junit.jupiter.api.Assertions.assertFalse;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-
-import at.ac.fhstp.Check;
 
 public class CheckTest {
 
     private Check cut;
 
+    @BeforeAll
+    public static void initialize() {
+        System.out.println("Initially setting up");
+    }
+
     @BeforeEach
     public void setUp() {
+        System.out.println("Setup before each test");
         cut = new Check();
     }
 
