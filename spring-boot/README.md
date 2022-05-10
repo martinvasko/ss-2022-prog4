@@ -1,4 +1,4 @@
-# FHSTP Quarkus Starter
+# FHSTP Spring Boot Starter
 
 This is the sample code from [Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
 
