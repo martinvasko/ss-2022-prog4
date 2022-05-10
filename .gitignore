@@ -6,6 +6,7 @@ spring-cloud-azure/src/main/resources/application.properties
 deepdive/target/
 gof/target/
 junit5/target/
+spring-boot/target/
 spring-cloud-azure/src/main/resources/application.properties
 quarkus-azure/.mvn/
 quarkus-starter/.mvn/
